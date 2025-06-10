@@ -71,6 +71,11 @@ p {
 
 }
 
+#menubar {
+  background-color: #31363a;
+  padding: 10px;
+}
+
 .container {
 display: flex;
   gap: 20px;             /* space between columns */
@@ -100,3 +105,4 @@ display: flex;
     margin-bottom: 20px; /* space between stacked sections */
   }
 }
+

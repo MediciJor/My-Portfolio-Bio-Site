@@ -8,7 +8,7 @@ body {
 
 h1 {
   color: #ffffff;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -75,7 +75,7 @@ ul {
 }
 
 #menubar {
-  background-color: #31363a;
+  background-color: #484e53;
   padding: 10px;
 }
 

@@ -97,7 +97,7 @@ display: flex;
   color: white;
 }
 
-navbar .nav-list {
+.navbar .nav-list {
   display: flex; /* turns list items horizontal */
   list-style: none;
   padding: 0;

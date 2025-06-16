@@ -1,8 +1,8 @@
-function loadPage("About me.html") {
-  fetch("About me.html")
+window.onload = function() {
+  fetch('about-text.html')
     .then(response => {
       if (!response.ok) {
-        throw new Error("File not found");
+        throw new Error("Failed to load about text");
       }
       return response.text();
     })
@@ -10,7 +10,7 @@ function loadPage("About me.html") {
       document.getElementById("content").innerHTML = data;
     })
     .catch(error => {
-      document.getElementById("content").innerHTML = "<p>Error loading content.</p>";
+      document.getElementById("content").innerHTML = "<p>Could not load content.</p>";
       console.error("Error:", error);
     });
-}
+};

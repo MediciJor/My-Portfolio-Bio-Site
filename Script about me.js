@@ -1,5 +1,5 @@
-function loadPage(About me.html) {
-  fetch(About me.html)
+function loadPage("About me.html") {
+  fetch("About me.html")
     .then(response => {
       if (!response.ok) {
         throw new Error("File not found");
